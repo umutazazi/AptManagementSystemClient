@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.weatherText = new System.Windows.Forms.Label();
-            this.weatherİnfo = new System.Windows.Forms.Label();
+            this.weatherInfo = new System.Windows.Forms.Label();
             this.currency = new System.Windows.Forms.Label();
             this.currencyInfo = new System.Windows.Forms.Label();
             this.cardReaderText = new System.Windows.Forms.Label();
@@ -50,14 +50,14 @@
             this.weatherText.TabIndex = 0;
             this.weatherText.Text = "Current Weather : ";
             // 
-            // weatherİnfo
+            // weatherInfo
             // 
-            this.weatherİnfo.AutoSize = true;
-            this.weatherİnfo.Location = new System.Drawing.Point(145, 24);
-            this.weatherİnfo.Name = "weatherİnfo";
-            this.weatherİnfo.Size = new System.Drawing.Size(33, 20);
-            this.weatherİnfo.TabIndex = 1;
-            this.weatherİnfo.Text = "null";
+            this.weatherInfo.AutoSize = true;
+            this.weatherInfo.Location = new System.Drawing.Point(145, 24);
+            this.weatherInfo.Name = "weatherInfo";
+            this.weatherInfo.Size = new System.Drawing.Size(33, 20);
+            this.weatherInfo.TabIndex = 1;
+            this.weatherInfo.Text = "null";
             // 
             // currency
             // 
@@ -152,7 +152,7 @@
             this.Controls.Add(this.cardReaderText);
             this.Controls.Add(this.currencyInfo);
             this.Controls.Add(this.currency);
-            this.Controls.Add(this.weatherİnfo);
+            this.Controls.Add(this.weatherInfo);
             this.Controls.Add(this.weatherText);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -164,7 +164,7 @@
         #endregion
 
         private Label weatherText;
-        private Label weatherİnfo;
+        private Label weatherInfo;
         private Label currency;
         private Label currencyInfo;
         private Label cardReaderText;
